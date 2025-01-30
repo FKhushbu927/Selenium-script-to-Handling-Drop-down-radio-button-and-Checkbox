@@ -22,5 +22,8 @@ public class HandlingCheckBox {
         if(!(element.isSelected())){
             element.click();
         }
+        else{
+            System.out.println("Checkbox is already selected");
+        }
     }
 }

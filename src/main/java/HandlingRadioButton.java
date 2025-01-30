@@ -22,6 +22,9 @@ public class HandlingRadioButton {
         if(!(element.isSelected())){
             driver.findElement(By.id("vfb-7-1")).click();
         }
+        else {
+            System.out.println("Radio Button is already selected");
+        }
 
 
 
